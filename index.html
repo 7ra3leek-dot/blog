@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>مدونة مصطفى — أفكار، نقد وفلسفة</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">مصطفى حجي</a>
+      <nav class="nav">
+        <a href="/">الرئيسية</a>
+        <a href="/about.html">عنّي</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <h1>مدونة مصطفى</h1>
+      <p class="lead">كتابات في الأخلاق، الدين، الفلسفة، والإنسان.</p>
+    </section>
+
+    <section class="posts">
+
+      <article class="post">
+        <h2><a href="posts/slaves-and-free.html">أخلاق العبيد وأخلاق الأحرار</a></h2>
+        <p class="meta">مقال نقدي</p>
+        <p class="excerpt">هل الأخلاق القائمة على الخوف أخلاق حقًا؟ نقد جذري لفكرة الأخلاق القائمة على الرقابة الإلهية...</p>
+      </article>
+
+      <article class="post">
+        <h2><a href="posts/islam-text-humanity.html">الإسلام... بين قدسيّة النص وإنسانيّة الفكرة</a></h2>
+        <p class="meta">1 يناير 2026</p>
+        <p class="excerpt">مقال طويل في نقد القداسة، وتحليل التوتر بين النص الديني والفكرة الإنسانية...</p>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> مصطفى حجي</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
